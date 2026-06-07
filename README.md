@@ -47,3 +47,9 @@ PS E:\Code\NimmeurDuDimanche\nimancer\examples> .\basic_cli.exe more-complex rez
 A very complex command
 
 - [ ] we should extend our test suite to cover more edge cases and error scenarios (e.g. invalid types, missing required args, too many args, args provided where no expected, etc.)
+
+
+Check examples and run them with:
+```bash
+nim c -r --path:src examples/todo.nim # (or examples/basic_cli.nim)
+```

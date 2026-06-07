@@ -1,1 +1,4 @@
 **/*.exe
+
+examples/*
+!examples/*.nim

@@ -8,6 +8,7 @@ when isMainModule:
     desc "A basic CLI example using Nimancer"
 
     command "hello":
+      alias "wassup"
       desc "Say hello"
       action:
         stdout.writeLine "Hello, world!"
@@ -21,6 +22,7 @@ when isMainModule:
         0
 
     command "more-complex":
+      alias "c"
       desc "A more complex command with options"
       opt(seriously, bool, "-s", "--seriously", "Seriously complex option")
       opt(ultra, bool, "-u", "--ultra", "Ultra complex option")
